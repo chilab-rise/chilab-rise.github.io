@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+
+<html data-dark="false" lang="en">
+<head>
+<meta charset="utf-8"/><meta content="width=device-width, initial-scale=1" name="viewport"/>
+<meta content="no-cache, no-store, must-revalidate" http-equiv="Cache-Control"/>
+<meta content="no-cache" http-equiv="Pragma"/><meta content="0" http-equiv="Expires"/>
+<title>Security: Protection Against Wireless Eavesdropping | RISE Lab</title><meta content="Antenna subset modulation, frequency diversity, and secret phase keys for eavesdropping-resilient mmWave communication." name="description"/>
+<meta content="noindex, nofollow" name="robots"/>
+<meta content="#00205b" name="theme-color"/>
+<link href="/assets/favicon.svg" rel="icon" type="image/svg+xml"/>
+<link href="/assets/site.css?v=20260909-5" rel="stylesheet"/>
+<script defer="" src="/assets/site.js"></script>
+</head>
+<body>
+<button aria-controls="main" class="skip-link" type="button">Skip to content</button>
+<header class="site-header"><div class="container header-inner">
+<a class="brand brand--full-name" href="/">Rice Integrated Systems and Electromagnetics (RISE) Lab</a>
+<button aria-controls="main-nav" aria-expanded="false" class="menu-toggle">Menu <span aria-hidden="true">☰</span></button>
+<nav aria-label="Main navigation" id="main-nav"><a href="/">Home</a><a aria-current="page" href="/research/">Research</a><a href="/team/">Team</a><a href="/publications/">Publications</a><a href="/chip-gallery/">Chip Gallery</a><a href="/teaching/">Teaching</a><a href="/news/">News</a><a href="/contact/">Contact</a></nav>
+</div></header>
+<main id="main" tabindex="-1"><h1 class="sr-only">Security: Protection Against Wireless Eavesdropping</h1>
+<div class="container">
+<div class="chip-figure chip-figure--security">
+<div class="chip-figure-heading"><h3>Security: Protection Against Wireless Eavesdropping</h3></div>
+<div class="chip-figure-grid">
+<div class="chip-figure-item"><img alt="Random antenna subsets scramble off-axis constellations; original 28-GHz ASM chip and eight-element packaged antenna array" height="300" loading="lazy" src="/assets/projects/eavesdropping-asm-panel-v2.webp" width="400"/><h4>Antenna Subset Modulation</h4>
+<p class="chip-paper-links"><a class="paper-link" href="https://ieeexplore.ieee.org/document/10750880" rel="noopener noreferrer" target="_blank" title="A Millimeter-Wave Antenna Subset Modulation Transmitter Array for Low-Overhead Physical-Layer Security Against Wireless Eavesdropping Attacks">T-MTT 2025</a></p>
+</div>
+<div class="chip-figure-item"><img alt="Frequency diversity, secret phase keys, and ASM protect the intended link; original 28-GHz chip and twelve-element packaged antenna array" height="300" loading="lazy" src="/assets/projects/eavesdropping-fdsa-panel-v2.webp" width="400"/><h4>Frequency-Diverse Sub-Array</h4>
+<p class="chip-paper-links"><a class="paper-link" href="https://ieeexplore.ieee.org/document/11409268" rel="noopener noreferrer" target="_blank" title="A 28GHz Frequency-Diverse Sub-Array TX with Secret Phase Keys and Antenna Subset Modulation for Eavesdropping-Resilient Wireless Communication">ISSCC 2026</a></p>
+</div>
+</div>
+</div>
+</div>
+<section class="container project-story project-story-full"><div class="project-body"><p>Physical-layer security has attracted growing interest within the wireless communication community. It can be either combined with conventional cryptography for enhanced, “two-factor” defenses or used to reduce encryption workload in energy-constrained systems. The latter is particularly attractive for mmWave communication, where real-time, multi-Gb/s encryption/decryption incurs significant power consumption and latency overhead.</p><p>We first developed a 28-GHz antenna subset modulation (ASM) transmitter that randomly selects the active antenna subset for each transmitted symbol. Signals from the active antennas combine coherently in the intended direction, preserving the desired constellation while scrambling the symbols received in other directions. Although this approach addresses off-axis interception, eavesdropping within the main beam remains a concern.</p><p>To address this limitation, we combined frequency-diverse sub-arrays, secret phase keys, and ASM. The intended receiver uses the shared phase keys to coherently combine the transmitted signals. Eavesdroppers without those keys experience constellation scrambling, including at locations within the main beam. Over-the-air measurements demonstrate resilience against both main-beam and off-axis eavesdropping, with only 2% DC power overhead compared to a conventional phased-array transmitter.</p></div></section>
+<section class="container section related-papers"><h2>Related publications</h2><ul class="citations">
+<li class="citation" id="paper-033"><div>Q. Zhou, Y. Su, H. Guo, Y. Hu, K. Yang, and T. Chi, “<a href="https://ieeexplore.ieee.org/document/11409268" rel="noopener noreferrer" target="_blank">A 28GHz Frequency-Diverse Sub-Array TX with Secret Phase Keys and Antenna Subset Modulation for Eavesdropping-Resilient Wireless Communication</a>,” in IEEE Int. Solid-State Circuits Conf. (<strong>ISSCC</strong>) Dig. Tech. Papers, Feb. 2026, pp. 92–93.</div></li>
+<li class="citation" id="paper-003"><div>Q. Zhou, Y. He, Y. Hu, X. Zhang, K. Yang, and T. Chi, “<a href="https://ieeexplore.ieee.org/document/10750880" rel="noopener noreferrer" target="_blank">A Millimeter-Wave Antenna Subset Modulation Transmitter Array for Low-Overhead Physical-Layer Security Against Wireless Eavesdropping Attacks</a>,” IEEE Trans. Microw. Theory Techn. (<strong>T-MTT</strong>), vol. 73, no. 6, pp. 3630–3643, Jun. 2025.</div></li>
+</ul><a class="quiet-link" href="/publications/" rel="noopener noreferrer" target="_blank">All publications →</a></section>
+</main>
+<footer class="site-footer"><div class="container footer-grid">
+<div><p><a href="/">Rice Integrated Systems and Electromagnetics (RISE) Lab</a></p></div>
+<div><p>O’Connor Building, Room 450<br/>6100 Main Street, MS-352<br/>Houston, TX 77005</p></div>
+<div class="footer-links"><a href="mailto:taiyun.chi@rice.edu">taiyun.chi@rice.edu</a><a href="/contact/">Contact &amp; directions <span aria-hidden="true">↗</span></a></div>
+</div></footer>
+</body></html>

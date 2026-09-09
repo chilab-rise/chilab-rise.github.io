@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+
+<html data-dark="false" lang="en">
+<head>
+<meta charset="utf-8"/><meta content="width=device-width, initial-scale=1" name="viewport"/>
+<meta content="no-cache, no-store, must-revalidate" http-equiv="Cache-Control"/>
+<meta content="no-cache" http-equiv="Pragma"/><meta content="0" http-equiv="Expires"/>
+<title>Circuit Design: Frequency Generation | RISE Lab</title><meta content="Magnetic mode switching and implicit harmonic generation enable wideband, low-phase-noise local oscillators for communication and sensing." name="description"/>
+<meta content="noindex, nofollow" name="robots"/>
+<meta content="#00205b" name="theme-color"/>
+<link href="/assets/favicon.svg" rel="icon" type="image/svg+xml"/>
+<link href="/assets/site.css?v=20260909-5" rel="stylesheet"/>
+<script defer="" src="/assets/site.js"></script>
+</head>
+<body>
+<button aria-controls="main" class="skip-link" type="button">Skip to content</button>
+<header class="site-header"><div class="container header-inner">
+<a class="brand brand--full-name" href="/">Rice Integrated Systems and Electromagnetics (RISE) Lab</a>
+<button aria-controls="main-nav" aria-expanded="false" class="menu-toggle">Menu <span aria-hidden="true">☰</span></button>
+<nav aria-label="Main navigation" id="main-nav"><a href="/">Home</a><a aria-current="page" href="/research/">Research</a><a href="/team/">Team</a><a href="/publications/">Publications</a><a href="/chip-gallery/">Chip Gallery</a><a href="/teaching/">Teaching</a><a href="/news/">News</a><a href="/contact/">Contact</a></nav>
+</div></header>
+<main id="main" tabindex="-1"><h1 class="sr-only">Circuit Design: Frequency Generation</h1>
+<div class="container">
+<div class="chip-figure chip-figure--frequency">
+<div class="chip-figure-heading"><h3>Circuit Design: Frequency Generation</h3></div>
+<div class="chip-figure-grid">
+<div class="chip-figure-item"><img alt="Magnetic mode switching and common-mode resonance with the original ISSCC 2025 LO generator die" height="300" loading="lazy" src="/assets/projects/frequency-wideband-panel.webp?v=fdf8c8e6c43c" width="400"/><h4>Wideband LO Generation</h4>
+<p class="chip-paper-links"><a class="paper-link" href="https://ieeexplore.ieee.org/document/10904644" rel="noopener noreferrer" target="_blank" title="A 9.05-to-37.0GHz LO Generator with Magnetic Mode Switching and Tuning-Free Octave-Bandwidth Common-Mode Resonator Achieving &gt;190.7dBc/Hz FoM">2025 ISSCC Lewis Winner Outstanding Paper Award</a></p>
+<p class="chip-paper-links">9.05–37.0 GHz · 190.7 dBc/Hz worst-case FoM</p>
+</div>
+<div class="chip-figure-item"><img alt="Implicit ×5 and ×3 harmonic extraction with separately labeled CICC 2023 and updated T-MTT 2025 die photos" height="300" loading="lazy" src="/assets/projects/frequency-wband-panel-v2.webp?v=670f515602a9" width="400"/><h4>W-Band LO Generation</h4>
+<p class="chip-paper-links"><a class="paper-link" href="https://ieeexplore.ieee.org/document/11114372" rel="noopener noreferrer" target="_blank" title="Design and Analysis of a W-band Local Oscillator Generator With Cascaded Implicit Frequency Quintupling and Tripling">T-MTT 2025</a> · <a class="paper-link" href="https://ieeexplore.ieee.org/document/10121289" rel="noopener noreferrer" target="_blank" title="An 86.5-105.6GHz LO Generator with Cascaded Implicit Frequency Quintupling and Tripling Achieving -107.7dBc/Hz Phase Noise and 191.2dBc/Hz FoM at 1MHz Offset">CICC 2023</a></p>
+<p class="chip-paper-links">83.7–102.6 GHz · &gt;190 dBc/Hz FoM</p>
+</div>
+</div>
+</div>
+</div>
+<section class="container project-story project-story-full"><div class="project-body"><p>Our ISSCC 2025 LO generator combines a dual-core VCO with magnetic mode switching and a compact, tuning-free, octave-bandwidth common-mode resonator. Magnetic coupling suppresses undesired oscillation modes without directly loading the VCO cores. The common-mode resonator controls and extracts the second harmonic without manual tuning. Combining the fundamental and second-harmonic outputs provides 9.05–37.0 GHz coverage, a 4.09:1 tuning range, and a worst-case FoM of 190.7 dBc/Hz at a 10-MHz offset.</p><p>Our TMTT 2025 and CICC 2023 paper reports a W-band LO generator with a world-record FoM of <strong>&gt;190 dBc/Hz</strong>. We start with a high-FoM fundamental VCO around 7 GHz and employ cascaded implicit frequency quintupling and tripling to generate the output at 15× the fundamental frequency. The TMTT journal paper further delves into the fundamental trade-off in using a Class-F<sub>23</sub> VCO as an implicit frequency tripler. Contrary to conventional wisdom, we prove that <strong>having strong 2<sup>nd</sup> and 3<sup>rd</sup> harmonics simultaneously is actually detrimental for the fundamental VCO’s FoM</strong>. To address this, we propose <strong>a new VCO topology that enables implicit harmonic extraction without FoM degradation</strong>, along with <strong>a new third harmonic enhancement technique through 2<sup>nd</sup> harmonic control</strong> in injection-locked oscillators. <strong>A must-read if you work on mmWave frequency generation circuits or VCOs.</strong></p></div></section>
+<section class="container section related-papers"><h2>Related publications</h2><ul class="citations">
+<li class="citation" id="paper-041"><div>H. Guo, Y. Hu, and T. Chi, “<a href="https://ieeexplore.ieee.org/document/10904644" rel="noopener noreferrer" target="_blank">A 9.05-to-37.0GHz LO Generator with Magnetic Mode Switching and Tuning-Free Octave-Bandwidth Common-Mode Resonator Achieving &gt;190.7dBc/Hz FoM</a>,” in IEEE Int. Solid-State Circuits Conf. (<strong>ISSCC</strong>) Dig. Tech. Papers, Feb. 2025, pp. 560–561. ― <strong>2025 ISSCC Lewis Winner Outstanding Paper Award</strong></div></li>
+<li class="citation" id="paper-002"><div>H. Guo and T. Chi, “<a href="https://ieeexplore.ieee.org/document/11114372" rel="noopener noreferrer" target="_blank">Design and Analysis of a W-band Local Oscillator Generator With Cascaded Implicit Frequency Quintupling and Tripling</a>,” IEEE Trans. Microw. Theory Techn. (<strong>T-MTT</strong>), vol. 73, no. 11, pp. 9616–9631, Nov. 2025.</div></li>
+<li class="citation" id="paper-051"><div>H. Guo and T. Chi, “<a href="https://ieeexplore.ieee.org/document/10121289" rel="noopener noreferrer" target="_blank">An 86.5-105.6GHz LO Generator with Cascaded Implicit Frequency Quintupling and Tripling Achieving -107.7dBc/Hz Phase Noise and 191.2dBc/Hz FoM at 1MHz Offset</a>,” in Proc. IEEE Custom Integr. Circuits Conf. (<strong>CICC</strong>), Apr. 2023.</div></li>
+</ul><a class="quiet-link" href="/publications/" rel="noopener noreferrer" target="_blank">All publications →</a></section>
+</main>
+<footer class="site-footer"><div class="container footer-grid">
+<div><p><a href="/">Rice Integrated Systems and Electromagnetics (RISE) Lab</a></p></div>
+<div><p>O’Connor Building, Room 450<br/>6100 Main Street, MS-352<br/>Houston, TX 77005</p></div>
+<div class="footer-links"><a href="mailto:taiyun.chi@rice.edu">taiyun.chi@rice.edu</a><a href="/contact/">Contact &amp; directions <span aria-hidden="true">↗</span></a></div>
+</div></footer>
+</body></html>
